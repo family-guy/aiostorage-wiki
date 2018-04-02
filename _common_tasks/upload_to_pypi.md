@@ -25,6 +25,7 @@ uploaded to PyPI
 - If using Git tags, update the version there too
 - Commit changes, push up the branch and submit a pull request
 - Wait for the pull request to be accepted
+- Checkout `master` branch, pull down, delete `version-bump` branch
 - Create a PyPI package (a `tar.gz` file, not to be confused with the Python
  package `aiostorage/aiostorage`) from the source files, `python setup.py 
  sdist` 
