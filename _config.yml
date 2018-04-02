@@ -1,0 +1,50 @@
+name: aiostorage Wiki
+version: 3.0.3
+url: https://pypi.python.org/pypi/aiostorage
+future: true
+
+author:
+  name: Guy King
+  email: guy@zorncapital.com
+
+baseurl: /aiostorage-wiki
+
+builds:
+  - Any
+  - Static
+  - Jekyll
+
+plans:
+  - Free
+  - Basic
+  - Pro
+
+hostings:
+  - Any
+  - CloudCannon
+
+collections:
+  overview:
+    title: Overview
+    permalink: /overview/:title/
+    active_prefix: overview
+    output: true
+    order: 1
+  getting_started:
+    title: Getting Started
+    permalink: /getting-started/:title/
+    active_prefix: getting-started
+    output: true
+    order: 2
+  common_tasks:
+    title: Common Tasks
+    permalink: /common-tasks/:title/
+    active_prefix: common-tasks
+    output: true
+    order: 3
+
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: docs
