@@ -24,7 +24,7 @@ Suppose we have some files that we would like to upload.
 
 In `run()`, we create a storage instance, supply our 
 cloud storage credentials, and loop through the files, appending each one as
- a `future` to a `list` as we go along
+ a `future` to a `list`
 
 ```
 async def run():
