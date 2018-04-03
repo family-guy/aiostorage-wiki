@@ -14,6 +14,6 @@ Cloud storage providers currently supported:
 *aiostorage* is [open source](https://github.com/family-guy/aiostorage) and 
 available for download from [PyPI](https://pypi.python.org/pypi/aiostorage).
 
-Contributions are welcome! (please see [Getting Started](/getting-started/developer-computer-setup/))
+Contributions are welcome! (please see [Getting Started]({{ site.baseurl }}/getting-started/developer-computer-setup/))
 
 Further documentation can be found here (readthedocs link)
