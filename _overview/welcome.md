@@ -4,6 +4,8 @@ order: 1
 permalink: /
 ---
 
+Welcome to the *aiostorage* Wiki.
+
 *aiostorage* is a Python library for interacting with cloud object storage 
 providers asynchronously.
 
@@ -16,4 +18,4 @@ available for download from [PyPI](https://pypi.python.org/pypi/aiostorage).
 
 Contributions are welcome! (please see [Getting Started]({{ site.baseurl }}/getting-started/developer-computer-setup/))
 
-Further documentation can be found here (readthedocs link)
+[Further documentation (Read the Docs).](http://aiostorage.readthedocs.io/)
