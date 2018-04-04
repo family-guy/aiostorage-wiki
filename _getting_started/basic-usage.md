@@ -58,6 +58,6 @@ uploaded in parallel (but in the same thread), i.e. the time taken to upload
  all files roughly equals the time taken to upload the slowest 
  file.
  
-**Caveat:** Any potential time gains will depend on how
- the cloud storage provider handles this kind of behaviour. Further, in 
+**Caveat:** Any time gains will depend on how
+ the cloud storage provider handles such behaviour. Further, in 
  extreme cases, files may not be able to be uploaded at all.
