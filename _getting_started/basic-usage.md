@@ -39,8 +39,8 @@ async def run():
     await asyncio.wait(futures)
 ```
 
-where `my_upload_file` is a helper coroutine that does the authenticating and 
-uploading of each file to a given bucket
+where `my_upload_file()` is a helper coroutine that does the authenticating and 
+uploading of each file to a bucket
 
 ```
 async def my_upload_file(storage, file):

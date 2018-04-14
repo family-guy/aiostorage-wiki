@@ -4,7 +4,7 @@ order: 1
 permalink: /
 ---
 
-Welcome to the *aiostorage* Wiki.
+Welcome to the *aiostorage* wiki.
 
 *aiostorage* is a Python library for interacting with cloud object storage 
 providers asynchronously.
